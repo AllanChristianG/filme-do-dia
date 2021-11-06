@@ -1,0 +1,21 @@
+body {
+    background-color: rgba(189, 169, 169, 0.568);
+}
+.container {
+    background-color: #fff;
+    border: 2px solid #fff  ;
+    border-radius: 10px;
+    display: flex;
+    width: 98.5vw;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+img {
+    width: 600px;
+    height: 300px;
+    object-fit: fill;
+    border-radius: 20px;
+  }
