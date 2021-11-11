@@ -4,3 +4,74 @@
     box-sizing: border-box;
 }
 
+body {
+    background: url('../img/login-bg.jpeg') no-repeat center;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.login-wrapper {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    position: relative;
+    width: 100%;
+    max-width: 380px;
+    padding: 80px 40px 40px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    color: #fff;
+}
+
+.form img {
+    position: absolute;
+    top: -50px;
+    /* Verificar posição após aplicação de outros estilos */
+    left: calc(50% - 12%); 
+    width: 100px;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 50%
+}
+
+.form h2 {
+    text-align: center;
+    margin-bottom: 2rem; 
+    letter-spacing: 1px;
+    color: rgba(209, 47, 40, 0.8)
+}
+
+.form .input-group { 
+    position: relative;
+}
+
+.form .input-group input { 
+    width: 100%;
+    padding: 10px 0;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background-color: transparent;
+    color:  inherit;
+}
+
+.form .input-group label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 1rem;
+    /* pointer-events: none; */
+    transition: .3s ease-out;
+}
+
+#forgot-password {
+    display: none;
+}
