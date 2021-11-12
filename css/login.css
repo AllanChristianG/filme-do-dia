@@ -49,7 +49,7 @@ body {
     text-align: center;
     margin-bottom: 2rem; 
     letter-spacing: 1px;
-    color: #ff652f;
+    color: #d12f28cc;
 }
 
 .form .input-group { 
@@ -82,7 +82,7 @@ body {
 .form .input-group input:focus + label,
 .form .input-group input:valid + label {
     transform: translateY(-18px);
-    color: #ff652f;
+    color: #d12f28cc;
     font-size: .8rem;
 }
 
@@ -91,7 +91,7 @@ body {
     margin-left: auto;
     border: none;
     outline: none;
-    background: #ff652f;
+    background: #d12f28cc;
     font-size: 1rem;
     text-transform: uppercase;
     letter-spacing: 1px;
